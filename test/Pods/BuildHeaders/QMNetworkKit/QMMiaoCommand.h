@@ -1,0 +1,1 @@
+../../QMNetworkKit/Classes/command/QMMiaoCommand.h

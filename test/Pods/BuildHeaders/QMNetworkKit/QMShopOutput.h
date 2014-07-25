@@ -1,0 +1,1 @@
+../../QMNetworkKit/Classes/output/QMShopOutput.h

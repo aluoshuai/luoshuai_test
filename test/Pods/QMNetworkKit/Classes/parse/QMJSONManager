@@ -1,0 +1,9 @@
+    QMJSONManager提供类方法,直接传入相关参数，demo如下
+
+    NSDictionary *object = @{ @"key" : @"value" };
+    NSString *jsonString = [QMJSONManager JSONStringFromObject: object];
+    NSLog(@"%s %@", __FUNCTION__, jsonString);
+    
+    NSString *givenString = @"{ \"key\" : \"value\" }";
+    id convertedObject = [QMJSONManager objectFromJSONString: givenString ];
+    NSLog(@"%s %@", __FUNCTION__, convertedObject);

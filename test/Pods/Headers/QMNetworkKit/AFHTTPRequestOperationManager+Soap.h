@@ -1,0 +1,1 @@
+../../QMNetworkKit/Classes/network/AFHTTPRequestOperationManager+Soap.h

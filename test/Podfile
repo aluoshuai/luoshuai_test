@@ -1,0 +1,2 @@
+platform:ios,'6.0'
+pod 'QMNetworkKit', :git => 'git@bitbucket.org:orz-8/qmnetworkkit.git'

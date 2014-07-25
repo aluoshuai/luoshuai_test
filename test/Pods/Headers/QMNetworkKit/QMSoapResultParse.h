@@ -1,0 +1,1 @@
+../../QMNetworkKit/Classes/network/QMSoapResultParse.h

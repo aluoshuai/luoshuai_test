@@ -1,0 +1,90 @@
+PODS:
+  - AFNetworking (2.1.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+    - AFNetworking/UIKit
+  - AFNetworking/NSURLConnection (2.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.1.0):
+    - AFNetworking/NSURLConnection
+  - AFNetworking/Reachability (2.1.0)
+  - AFNetworking/Security (2.1.0)
+  - AFNetworking/Serialization (2.1.0)
+  - AFNetworking/UIKit (2.1.0):
+    - AFNetworking/NSURLConnection
+  - BBCommonTools (1.0.0):
+    - BBCommonTools/safe
+    - BBCommonTools/string
+  - BBCommonTools/safe (1.0.0)
+  - BBCommonTools/string (1.0.0)
+  - jastor (0.2.1)
+  - QMNetworkKit (1.0.0):
+    - AFNetworking (~> 2.1.0)
+    - BBCommonTools
+    - jastor (~> 0.2.1)
+    - QMNetworkKit/command
+    - QMNetworkKit/loger
+    - QMNetworkKit/network
+    - QMNetworkKit/output
+    - QMNetworkKit/parse
+    - ReactiveCocoa (~> 2.2.3)
+    - TMCache (~> 1.2.0)
+  - QMNetworkKit/command (1.0.0):
+    - AFNetworking (~> 2.1.0)
+    - BBCommonTools
+    - jastor (~> 0.2.1)
+    - ReactiveCocoa (~> 2.2.3)
+    - TMCache (~> 1.2.0)
+  - QMNetworkKit/loger (1.0.0):
+    - AFNetworking (~> 2.1.0)
+    - BBCommonTools
+    - jastor (~> 0.2.1)
+    - ReactiveCocoa (~> 2.2.3)
+    - TMCache (~> 1.2.0)
+  - QMNetworkKit/network (1.0.0):
+    - AFNetworking (~> 2.1.0)
+    - BBCommonTools
+    - jastor (~> 0.2.1)
+    - ReactiveCocoa (~> 2.2.3)
+    - TMCache (~> 1.2.0)
+  - QMNetworkKit/output (1.0.0):
+    - AFNetworking (~> 2.1.0)
+    - BBCommonTools
+    - jastor (~> 0.2.1)
+    - ReactiveCocoa (~> 2.2.3)
+    - TMCache (~> 1.2.0)
+  - QMNetworkKit/parse (1.0.0):
+    - AFNetworking (~> 2.1.0)
+    - BBCommonTools
+    - jastor (~> 0.2.1)
+    - ReactiveCocoa (~> 2.2.3)
+    - TMCache (~> 1.2.0)
+  - ReactiveCocoa (2.2.4):
+    - ReactiveCocoa/Core
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/Core (2.2.4):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.2.4)
+  - TMCache (1.2.0)
+
+DEPENDENCIES:
+  - QMNetworkKit (from `git@bitbucket.org:orz-8/qmnetworkkit.git`)
+
+EXTERNAL SOURCES:
+  QMNetworkKit:
+    :git: git@bitbucket.org:orz-8/qmnetworkkit.git
+
+SPEC CHECKSUMS:
+  AFNetworking: 7c33510b46f994bc75b75c6e63c1d83414ca40f2
+  BBCommonTools: 83e4a2b7a5da5f2da86b818a7ac9083e702c9943
+  jastor: 38c8cd3670b362123d824ee48a3056dca2037857
+  QMNetworkKit: 954f224da32689f923bded2e42255fd53cafbe9f
+  ReactiveCocoa: 2af0e10b1cb17a060898992474eaf51d12f34ae9
+  TMCache: ea1c509badaf9a1245422aabf3c975b3277ab138
+
+COCOAPODS: 0.33.1

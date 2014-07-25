@@ -1,0 +1,1 @@
+../../QMNetworkKit/Classes/parse/QMJSONManager.h
